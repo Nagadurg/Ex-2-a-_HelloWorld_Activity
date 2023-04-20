@@ -38,7 +38,8 @@ RegisterNumber:  212221230014
 */
 ```
 
-MainActivity.java:
+## MainActivity.java:
+```
 package com.example.fontsize;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -91,7 +92,7 @@ protected void onDestroy(){
 }
 }
 
-activity_main.xml:
+## activity_main.xml:
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
 
 <TextView
@@ -107,7 +108,8 @@ activity_main.xml:
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+````
+```
 
 
 ## Output:
