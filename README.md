@@ -33,94 +33,104 @@ Step 7: Save and run the application.
  ```
 /*
 Program to implement a Hello world Activity using all lifecycles methods using Android Studio .
-Developed by: Chevula Naga Durga
-RegisterNumber:  212221230014
+Developed by: Ch.Nagajyothi
+RegisterNumber:212221230015
 */
 ```
 
 ## MainActivity.java:
-```
+
 package com.example.fontsize;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle; import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle; import android.widget.Toast;
+import android.os.Bundle;
+import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-    Toast toast=Toast.makeText(getApplicationContext(),"OnCreate Executed",Toast.LENGTH_LONG);
-    toast.show();
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnCreate Executed",Toast.LENGTH_LONG);
+        toast.show();
+
+   }
+
+
+    protected void onStart(){
+        super.onStart();
+        Toast toast=Toast.makeText(getApplicationContext(),"OnStart Executed",Toast.LENGTH_LONG);
+        toast.show();
+    }
+    protected void onResume(){
+        super.onResume();
+        Toast toast=Toast.makeText(getApplicationContext(),"OnResume Executed",Toast.LENGTH_LONG);
+        toast.show();
+    }
+    protected void onPause(){
+        super.onPause();
+        Toast toast=Toast.makeText(getApplicationContext(),"OnPause Executed",Toast.LENGTH_LONG);
+        toast.show();
+    }
+    protected void onStop(){
+        super.onStop();
+        Toast toast=Toast.makeText(getApplicationContext(),"OnStop Executed",Toast.LENGTH_LONG);
+        toast.show();
+    }
+    protected void onRestart() {
+        super.onRestart();
+        Toast toast = Toast.makeText(getApplicationContext(), "OnRestart Executed", Toast.LENGTH_LONG);
+        toast.show();
+
+    }
+    protected void onDestroy(){
+        super.onDestroy();
+        Toast toast=Toast.makeText(getApplicationContext(),"OnDestroy Executed",Toast.LENGTH_LONG);
+        toast.show();
+
+    }
+
 }
 
-protected void onStart(){
-    super.onStart();
-    Toast toast=Toast.makeText(getApplicationContext(),"OnStart Executed",Toast.LENGTH_LONG);
-    toast.show();
-}
-protected void onResume(){
-    super.onResume();
-    Toast toast=Toast.makeText(getApplicationContext(),"OnResume Executed",Toast.LENGTH_LONG);
-    toast.show();
-}
-protected void onPause(){
-    super.onPause();
-    Toast toast=Toast.makeText(getApplicationContext(),"OnPause Executed",Toast.LENGTH_LONG);
-    toast.show();
-}
-protected void onStop(){
-    super.onStop();
-    Toast toast=Toast.makeText(getApplicationContext(),"OnStop Executed",Toast.LENGTH_LONG);
-    toast.show();
-}
-protected void onRestart() {
-    super.onRestart();
-    Toast toast = Toast.makeText(getApplicationContext(), "OnRestart Executed", Toast.LENGTH_LONG);
-    toast.show();
 
-}
-protected void onDestroy(){
-    super.onDestroy();
-    Toast toast=Toast.makeText(getApplicationContext(),"OnDestroy Executed",Toast.LENGTH_LONG);
-    toast.show();
 
-}
-}
 
-### activity_main.xml:
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" 
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools" 
-android:layout_width="match_parent" 
-android:layout_height="match_parent" tools:context=".MainActivity">
+## activity_main.xml:
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:layout_marginBottom="8dp"
-    android:text="Hello World!"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
-````
-```
+
 
 
 ## Output:
 
-![output](https://github.com/Nagadurg/Ex-2-a-_HelloWorld_Activity/blob/aeaa34630295c18b02fcafd5494e549b9b485b59/1.png)
-
-
+![output](https://github.com/Nagajyothichinta/Ex-2-a-_HelloWorld_Activity/blob/1b56cb3f854c64b1622b50eec0119fb57b157b8c/WhatsApp%20Image%202023-04-18%20at%208.46.17%20AM.jpeg)
 
 
 
