@@ -117,7 +117,7 @@ android:layout_height="match_parent" tools:context=".MainActivity">
 
 
 ## Output:
-<img width="222" alt="image" src="https://user-images.githubusercontent.com/94185707/233330863-874684e4-1eef-4276-8736-06cac9e8c8e6.png">
+
 
 
 
