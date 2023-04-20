@@ -92,7 +92,7 @@ protected void onDestroy(){
 }
 }
 
-## activity_main.xml:
+### activity_main.xml:
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" 
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools" 
@@ -118,7 +118,7 @@ android:layout_height="match_parent" tools:context=".MainActivity">
 
 ## Output:
 
-
+![output](https://github.com/Nagadurg/Ex-2-a-_HelloWorld_Activity/blob/aeaa34630295c18b02fcafd5494e549b9b485b59/1.png)
 
 
 
