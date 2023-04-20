@@ -33,8 +33,8 @@ Step 7: Save and run the application.
  ```
 /*
 Program to implement a Hello world Activity using all lifecycles methods using Android Studio .
-Developed by: Ch.Nagajyothi
-RegisterNumber:212221230015
+Developed by: Ch.Naga durga
+RegisterNumber:212221230014
 */
 ```
 
